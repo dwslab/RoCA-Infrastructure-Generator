@@ -10,7 +10,7 @@ public class InfrastructureGeneratorTest {
     @Test
     public void testInfrastructureGenerator() {
         InfrastructureGenerator gen;
-        for (int size = 100; size <= 100; size *= 10) {
+        for (int size = 100; size <= 10000; size *= 10) {
             for (int cause = 1; cause <= 2; cause++) {
                 for (int offline = 1; offline <= 5; offline++) {
                     System.out.println(size + " " + cause + " " + offline);
